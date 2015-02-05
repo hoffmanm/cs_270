@@ -1,0 +1,86 @@
+<!---Matthew Hoffman--->
+<!---Horizontal Navigation Bar - Assignment 01--->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<!--BEGIN STYLE-->
+<style>
+
+ul li{
+	display: inline-table;
+	background: #000000;
+	color: #FF2400;
+	padding: 10px;
+}
+
+ul ul {
+	display:none;
+	background: #29293D;
+	position: absolute; top:100%;
+}
+
+ul li:hover ul {
+	display:block;
+	padding: 0 0px;
+}
+
+ul li ul li {
+	padding: 5 10px;
+}
+
+ul {
+	padding:  0 50px;
+	display: inline-table;
+	background: #000000;
+	position: relative;
+	text-decoration:none;
+}
+
+ul li:hover {
+	background: #29293D;
+}
+
+ul li:hover a {
+	color: #0099CC;
+}
+
+ul li a {
+	display: block;
+	color: #FF2400;
+	text-decoration: none;
+}
+
+
+
+
+
+</style>
+<!--END STYLE-->
+
+</head>
+
+<body>
+
+<ul>
+	<li><a href="#">Home</a></li>
+	<li><a href="#">About</a>
+		<ul>
+			<li><a href="#">Staff</a></li>
+			<li><a href="#">History</a></li>
+			<li><a href="#">Press</a></li>
+		</ul>
+	</li>
+	<li><a href="#">Media</a>
+		<ul>
+			<li><a href="#">Audio</a></li>
+			<li><a href="#">Video</a></li>
+		</ul>
+	</li>
+	<li><a href="#">Blog</a></li>
+	<li><a href="#">Contact</a></li>
+</ul>
+
+</body>
